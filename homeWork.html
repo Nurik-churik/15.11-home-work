@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        
+        password = "amjilt_the_best";
+        jalpyPopitka = 5;
+let popitka = 0;
+
+while (popitka < jalpyPopitka) {
+    let userInput = prompt("Парольді енгізіңіз:");
+    if (userInput === password) {
+        alert("Пароль дұрыс!");
+        break;
+    } else {
+        popitka++;
+        alert("Қате пароль! Қайта енгізіңіз");
+    }
+
+    if (popitka == jalpyPopitka) {
+        alert("Too many attempts");
+    }
+}
+
+    </script>
+</body>
+</html>
